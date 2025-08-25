@@ -1,8 +1,3 @@
-BOT_TOKEN = "8018214274:AAE6kOfP9OKMKo4VXVppslUZOPMZ0LcGlnA"
-DATABASE_URL = "mongodb+srv://jauharobaid:1VAOB4Fm5gvM2YKS@cluster0.1nc4nru.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-OWNER_ID = 1709703325
-TELEGRAM_API = 5398201
-TELEGRAM_HASH = "5b8436d35c5ab09d01026c261b2b9c1b"
 # REQUIRED CONFIG
 #BOT_TOKEN = ""
 #OWNER_ID = 0
