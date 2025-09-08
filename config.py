@@ -1,11 +1,12 @@
 # REQUIRED CONFIG
+# REQUIRED CONFIG
 import os
-BOT_TOKEN = environ.get("BOT_TOKEN")
-DATABASE_URL = environ.get("DATABASE_URL")
-OWNER_ID = int(environ.get("OWNER_ID"))
-TELEGRAM_API = int(environ.get("TELEGRAM_API"))
-TELEGRAM_HASH = environ.get("TELEGRAM_HASH")
-# OPTIONAL CONFIG
+
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+DATABASE_URL = os.environ.get("DATABASE_URL", "")
+OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+TELEGRAM_API = int(os.environ.get("TELEGRAM_API", "0"))
+TELEGRAM_HASH = os.environ.get("TELEGRAM_HASH", "")# OPTIONAL CONFIG
 TG_PROXY = {}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
