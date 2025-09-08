@@ -1,7 +1,5 @@
 # REQUIRED CONFIG
 import os
-from os import environ
-
 BOT_TOKEN = environ.get("BOT_TOKEN")
 DATABASE_URL = environ.get("DATABASE_URL")
 OWNER_ID = int(environ.get("OWNER_ID"))
